@@ -7,7 +7,7 @@ import pygame
 def play_sound2():
     # Replace "audio_file.mp3" with the path to your audio file
         pygame.mixer.init()
-        pygame.mixer.music.load("C:\\Users\\tatan\\Downloads\\level.wav")
+        pygame.mixer.music.load("HangMan_Audio/level.wav")
         pygame.mixer.music.play()
 
 def seltheme():
